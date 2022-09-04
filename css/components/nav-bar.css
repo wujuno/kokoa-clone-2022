@@ -1,0 +1,36 @@
+.nav {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+
+    background-color: var(--gray);
+    padding: 20px 50px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(121, 121, 121, 0.3);
+    
+}
+.nav__list {
+    display: flex;
+    bottom: 0px;
+    justify-content: space-between;
+    color: #2e363e;
+   
+}
+.nav__link {
+    position: relative;
+}
+.nav__notification_number {
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+}
+.nav__notification_alert {
+    width: 7px;
+    height: 7px;
+    background-color: tomato;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    left: 25px;
+    bottom: 27px;
+}
